@@ -1,0 +1,38 @@
+.black{
+    background-color: #131417;
+}
+.inner{
+    background-color:  #212529;
+    color: aliceblue;
+    border: 1px solid #000000;
+    box-shadow: 2px 10px 10px #111111;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.inner:hover{
+    box-shadow: 0px 10px 10px #000000;
+}
+.button{
+    box-shadow: 2px 5px 5px #111111;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover{
+    box-shadow: 0px 6px 6px #000000;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #131417;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(1, 80, 170);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 63, 136);
+  }
